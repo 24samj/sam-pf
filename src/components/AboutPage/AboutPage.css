@@ -1,0 +1,25 @@
+.about-page-wrapper {
+    /* background: red; */
+    height: 100vh;
+}
+
+.about-rider-wrapper,
+.about-developer-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    padding: 25px;
+}
+
+.about-rider-wrapper {
+    overflow: hidden;
+    left: 0;
+}
+
+.about-developer-wrapper {
+    justify-content: flex-end;
+    right: 0;
+}

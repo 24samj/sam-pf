@@ -1,0 +1,92 @@
+.homepage-wrapper {
+    display: flex;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.rider-section-wrapper,
+.developer-section-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    padding: 25px;
+}
+
+.rider-section-wrapper {
+    overflow: hidden;
+    left: 0;
+}
+
+.developer-section-wrapper {
+    justify-content: flex-end;
+    right: 0;
+}
+
+.rider-section,
+.developer-section {
+    width: 500px;
+    min-width: 500px;
+}
+
+.developer-section {
+    text-align: right;
+}
+
+.sam-logo {
+    position: absolute;
+    height: 47%;
+    top: 26.5%;
+    left: 0;
+}
+
+.helmet-logo {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+}
+/* .rider-section-wrapper:hover {
+    width: 100%;
+}
+.rider-section-wrapper:hover + .developer-section-wrapper {
+    width: 0;
+    opacity: 0;
+}
+
+.rider-section-wrapper:hover .sam-logo {
+    display: none;
+}
+
+.developer-section-wrapper:hover {
+    width: 100%;
+}
+
+.developer-section-wrapper:hover .homepage-wrapper > div {
+    opacity: 0;
+}
+
+.homepage-wrapper > div:has(+ *:hover) {
+    width: 0;
+    opacity: 0;
+} */
+
+.bike-logo {
+    opacity: 0;
+    display: block;
+    transition-property: display opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-behavior: allow-discrete;
+}
+
+.laptop-logo {
+    opacity: 0;
+    display: block;
+    transition-property: display opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-behavior: allow-discrete;
+}

@@ -1,0 +1,34 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo-wrapper h1 {
+    font-size: 1.8rem;
+}
+
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.links-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.25s ease-in-out;
+    font-weight: 600;
+}
+
+.links-wrapper a:hover {
+    color: rgb(255, 255, 255, 0.5);
+}
